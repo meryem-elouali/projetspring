@@ -1,0 +1,61 @@
+/* VoitureListe.css */
+
+.card {
+    border: none;
+    background-color: #343a40; /* Couleur de fond de la carte */
+    color: white;
+    width: 80%; /* Ajustez la largeur de la carte en fonction de vos besoins */
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.card-header {
+    background-color: #292b2c; /* Couleur de fond de l'en-tête de la carte */
+    border: none;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.table {
+    width: 100%; /* Ajustez la largeur du tableau en fonction de vos besoins */
+}
+
+.table th {
+    background-color: #292b2c; /* Couleur de fond de l'en-tête du tableau */
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+}
+
+.table td {
+    text-align: center;
+    border: none;
+}
+
+.table a {
+    text-decoration: none;
+    color: #ff6b6b;
+    transition: color 0.2s;
+}
+
+.table a:hover {
+    color: #e65858;
+}
+
+.alert {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1;
+    background-color: #292b2c; /* Couleur de fond de l'alerte */
+    color: white;
+    border: none;
+    box-shadow: 4px 8px rgba(0, 0, 0, 0.2), 6px 20px rgba(0, 0, 0, 0.2);
+}
